@@ -9,7 +9,7 @@
 2. Modifique el programa para que, en lugar de resolver el problema con un solo hilo, lo haga con tres, donde cada uno de éstos hará la tarcera parte del problema original. Verifique nuevamente el funcionamiento, y nuevamente revise el uso de los núcleos del equipo.
 
 ![Imagen3](https://github.com/Brayandres/ARSW-LAB-02/blob/master/img/Parte1_1Threads.PNG)
-![Imagen4](https://github.com/Brayandres/ARSW-LAB-02/blob/master/img/Parte1_3Threads.PNGg)
+![Imagen4](https://github.com/Brayandres/ARSW-LAB-02/blob/master/img/Parte1_3Threads.PNG)
 
 ## Parte III
 
