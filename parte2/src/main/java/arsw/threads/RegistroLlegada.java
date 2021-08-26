@@ -18,8 +18,9 @@ public class RegistroLlegada {
 		return ultimaPosicionAlcanzada;
 	}
 
-	public void setUltimaPosicionAlcanzada(int ultimaPosicionAlcanzada) {
-		this.ultimaPosicionAlcanzada = ultimaPosicionAlcanzada;
+	public synchronized int setUltimaPosicionAlcanzada() {
+		this.ultimaPosicionAlcanzada = getUltimaPosicionAlcanzada()+1;
+		return ultimaPosicionAlcanzada-1;
 	}
 
 	
